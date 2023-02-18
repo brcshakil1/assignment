@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+
+body {
+    font-family: 'Leckerli One', cursive;
+    background-color: #0E2024;
+}
+
+.main-container {
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-container  {
+    width: 330px;
+    text-align: center;  
+}    
+
+.title_part-1 {
+    font-family: 'Leckerli One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 75px;
+    text-transform: capitalize;
+    color: #E9D7BF;
+
+    border-top: 10px dashed #E9D7BF;
+
+    padding: .65rem 0 1.2rem 0;
+}
+
+.title_part-2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 131px;
+    text-transform: uppercase;
+    color: #D0204F;
+
+    border-top: 10px dashed #D0204F;
+    border-bottom: 10px dashed #D0204F;
+}
+
+.title_part-3 {
+    font-family: 'Leckerli One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 75px;
+    text-transform: capitalize;
+
+    color: #E9D7BF;
+}
+
+.title_part-4 {
+    font-family: 'Fredericka the Great';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 86px;
+    line-height: 105px;
+    text-transform: uppercase;
+    color: #D1C734;
+
+    border-top: 10px solid #D1C734;
+    border-bottom: 10px solid #D1C734;
+}
